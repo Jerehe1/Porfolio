@@ -1,0 +1,13 @@
+table,td,th{
+    border: 1px solid black;
+    font-size: x-large;
+    border-collapse:collapse;
+    font-weight: bold;
+    color: rgb(235, 244, 151);
+}
+td{background-color: gray;
+padding: 5px;}
+th{background-color: black;
+padding: 5px;
+
+;}
