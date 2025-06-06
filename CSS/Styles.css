@@ -99,7 +99,26 @@ h1{
   background-color: #888888;
 }
 
+#button2 {
+   display: none; 
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #88e5f1; 
+  color: black;
+  border: solid 1px #000000;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
 
+#button2:hover {
+  background-color: #5ccedf; 
+}
 
 .img2{
 padding: 15px;
@@ -142,6 +161,12 @@ height: 100%;
 .projects h2{
   font-size: 2rem;
   margin-bottom: 30px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .projects2{
@@ -149,6 +174,7 @@ height: 100%;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .projects3{
