@@ -182,6 +182,7 @@ height: 100%;
   border-radius: 8px;
   width: 280px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+<<<<<<< HEAD
   margin-bottom: 5px;
 }
 
@@ -194,6 +195,8 @@ height: 100%;
   border: solid black 1px;
   width: 210px;
   height: 210px;
+=======
+>>>>>>> 713e1bf9c48f1f588eda52ca23075ac620951a48
 }
 
 .project3s h3{
@@ -215,7 +218,11 @@ height: 100%;
 }
 
 .foot1 {
+<<<<<<< HEAD
   position: static;
+=======
+  position: fixed;
+>>>>>>> 713e1bf9c48f1f588eda52ca23075ac620951a48
   bottom: 0;
   left: 0;
   width: 100%;
